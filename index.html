@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <h1><strong>Quizz</strong> Culture générale.</h1>
+      <div class="question">
+        <p>Qui est sacré empereur de France le 2 décembre 1804?</p>
+        <form>
+          <div class="response">
+            <input type="radio" name="qestion1" id="clovis">
+            <label for="clovis">Clovis</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion1" id="Abrahamlincoln">
+            <label for="Abrahamlincoln">Abraham Lincoln</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion1" id="napoleon">
+            <label for="napoleon">Napoleon Bonaparte</label>
+          </div>
+        </form>
+      </div>
+      <div class="question">
+        <p>Quand la déclaratiopns d'independance des Etats-Unis a-t-elle été votée?</p>
+        <form>
+          <div class="response">
+            <input type="radio" name="qestion2" id="juillet">
+            <label for="juillet">4 juillet 1776</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion2" id="avril">
+            <label for="avril">18 avril 1856</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion2" id="juin">
+            <label for="juin">30 juin 1925</label>
+          </div>
+        </form>
+      </div>
+      <div class="question">
+        <p>Quand a eu lieu la chute de l'empire romain d'occident?</p>
+        <form>
+          <div class="response">
+            <input type="radio" name="qestion3" id="15">
+            <label for="15">15 ap.J.-C</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion3" id="476">
+            <label for="476">476 ap.J.-C</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion3" id="740">
+            <label for="740">-740 ap.J.-C</label>
+          </div>
+        </form>
+      </div>
+      <div class="question">
+        <p>Quelle est la capitle de la Slovénie?</p>
+        <form>
+          <div class="response">
+            <input type="radio" name="qestion4" id="Ljubjana">
+            <label for="Ljubjana">Ljubjana</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion4" id="Belgrade">
+            <label for="Belgrade">Belgrade</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion4" id="Bratislava">
+            <label for="Bratislava">Bratislava</label>
+          </div>
+        </form>
+      </div>
+      <div class="question">
+        <p>Combien d'habitants compte l'Irlande en 2020?</p>
+        <form>
+          <div class="response">
+            <input type="radio" name="qestion5" id="1.365">
+            <label for="1.365">1.365 Millions</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion5" id="21">
+            <label for="21">21 Millions</label>
+          </div>
+          <div class="response">
+            <input type="radio" name="qestion5" id="4.9">
+            <label for="4.9">4.9 Millions</label>
+          </div>
+        </form>
+      </div>
+      <button class="btn">Valider✔️</button>
+
+      <div class="info">
+        <p class="commentaire"></p>
+        <p class="score"></p>
+        <p>Cliquez sur <strong>Valider</strong>pour voir les <strong>résultats.</strong></p>
+      
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
